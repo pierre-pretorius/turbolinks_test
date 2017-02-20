@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository shows a problem with select boxes and turbolinks 5.
 
-Things you may want to cover:
+Steps to reproduce:
 
-* Ruby version
+1) git clone https://github.com/pierre-pretorius/turbolinks_test.git
 
-* System dependencies
+2) cd turbolinks_test
 
-* Configuration
+3) bin/rake db:migrate
 
-* Database creation
+4) rails s
 
-* Database initialization
+5) Go to http://localhost:3000/items/new
 
-* How to run the test suite
+6) Enter name "any name" and select "Type two".
 
-* Services (job queues, cache servers, search engines, etc.)
+7) Click "Go to items".
 
-* Deployment instructions
+8) Press browser back button.
 
-* ...
+9) Note that "any name" is still filled in as the name but "Type two" isn't selected.
