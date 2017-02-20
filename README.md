@@ -1,6 +1,6 @@
 # README
 
-This repository shows a problem with select boxes and turbolinks 5.
+This repository shows a problem with select boxes and turbolinks 5.  This works with turbolinks-classic (v2).
 
 Steps to reproduce:
 
