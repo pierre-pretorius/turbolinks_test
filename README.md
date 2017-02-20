@@ -12,7 +12,7 @@ Steps to reproduce:
 
 4) rails s
 
-5) Go to http://localhost:3000/items/new
+5) Go to [http://localhost:3000/items/new](http://localhost:3000/items/new)
 
 6) Enter name "any name" and select "Type two".
 
