@@ -16,8 +16,12 @@ Steps to reproduce:
 
 6) Enter name "any name" and select "Type two".
 
+![Original](original.png)
+
 7) Click "Go to items".
 
 8) Press browser back button.
 
 9) Note that "any name" is still filled in as the name but "Type two" isn't selected.
+
+![After back button pressed](after_back.png)
